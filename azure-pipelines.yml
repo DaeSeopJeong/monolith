@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'c5c46a54-e6fb-42a9-bf5b-3ce1c59fa5cb'
   imageRepository: 'daeseopjeongmonolith'
   containerRegistry: 'project01acr.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/DockerfileAutoBuild'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
